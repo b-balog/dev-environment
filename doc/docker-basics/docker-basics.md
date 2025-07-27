@@ -134,9 +134,44 @@ This allows you to configure a container to run as an executable.
 
 ***
 
+After you finished the dockerfile, you need to navigate to your project folder:
 
+```bash
+cd your/project/folder
+```
+
+and run the following command in the command line:
+
+```bash
+docker build -t name-of-your-image path/from/current/folder/to/Dockerfile
+```
+
+If you want to hook your image to your docker user (not required), you can do the following:
+
+```bash
+docker build -t <DOCKER_USERNAME>/name-of-your-image path/from/current/folder/to/Dockerfile
+```
+
+**IMPORTANT NOTE:**
+
+The `docker build` command always builds from the directory you are currently in, while running it!! 
+
+(This can affect, for example, the `COPY` syntaxes paths)
 
 ### 1.4.2 The Docker container
+
+A container is a runnable instance of an image. You can create, start, stop, move, or delete a container 
+using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, 
+or even **create a new image based on its current state**.
+
+By default, a container is relatively well isolated from other containers and its host machine. 
+You can control how isolated a container's network, storage, or other underlying subsystems are from other containers 
+or from the host machine.
+
+A container is defined by its image as well as any configuration options you provide to it when you create or start it. 
+When a container is removed, **any changes to its state that aren't stored in persistent storage disappear**.
+
+
 
 
 
