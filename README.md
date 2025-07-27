@@ -7,7 +7,7 @@ This description assumes a basic knowledge of [Python](https://www.python.org/),
 [Google Colab](https://colab.research.google.com/) and 
 [PyCharm Professional](https://www.jetbrains.com/pycharm/)
 
-## 1. [Docker basics]()
+## 1. [Docker basics](doc/docker-basics/docker-basics.md#1-docker-basics)
 
 
 ## 2. [Docker Compose basics]()
