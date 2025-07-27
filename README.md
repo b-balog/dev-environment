@@ -22,7 +22,7 @@ This description assumes a basic knowledge of [Python](https://www.python.org/),
 ## 5. [Tests and GitHub Actions]()
 
 
-## 6. [Setting up the suitable environment for the project in PyCharm Professional]()
+## 6. [Setting up the suitable environment for the project in PyCharm Professional](doc/set-env/set_env_main.md#6-setting-up-the-suitable-environment-for-the-project-in-pycharm-professional)
 
 
 ## 7. [Docker advanced]() 
